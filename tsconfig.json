@@ -1,0 +1,12 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "sourceMap": true,
+    "noEmit": false
+  },
+  "include": ["src/**/*.ts"]
+}
