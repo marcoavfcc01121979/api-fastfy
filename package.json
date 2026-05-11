@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This project was bootstrapped with Fastify-CLI.",
   "main": "app.ts",
+  "engines": {
+    "node": ">=18"
+  },
   "directories": {
     "test": "test"
   },
@@ -25,12 +28,12 @@
     "@fastify/autoload": "^6.3.1",
     "@fastify/cookie": "^11.0.2",
     "@fastify/sensible": "^6.0.4",
-    "better-sqlite3": "^12.9.0",
     "dotenv": "^17.4.2",
     "fastify": "^5.8.5",
     "fastify-cli": "^8.0.0",
     "fastify-plugin": "^5.1.0",
     "knex": "^3.2.9",
+    "pg": "^8.20.0",
     "zod": "^4.4.2"
   },
   "devDependencies": {
@@ -38,6 +41,7 @@
     "@types/supertest": "^7.2.0",
     "@typescript-eslint/eslint-plugin": "^8.59.1",
     "@typescript-eslint/parser": "^8.59.1",
+    "better-sqlite3": "^12.9.0",
     "c8": "^11.0.0",
     "concurrently": "^9.0.0",
     "eslint": "^9.39.4",
